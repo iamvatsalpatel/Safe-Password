@@ -1,36 +1,38 @@
-# XYZ
-A ChatBot 🤖 application using Natural Language Processing.
+# Safe-Password 🔑
+A password stregth checking system using Natural Language Processing.
 
-<img align=right height=300 width=400 alt="Chater-logo" src="https://user-images.githubusercontent.com/58872872/140696053-2079cb04-0700-4033-b6a6-aa420ab3a8b5.png">
+<img align=right height=250 width=400 alt="Password-logo" src="https://user-images.githubusercontent.com/61371035/141652433-5f191d2a-72cb-491a-bce9-ee687e529b65.jpeg"/>
 
-- The Dataset I've used to train the models is [here](https://github.com/iamdhrutipatel/Chater/blob/main/dialogs-data.txt).
+- The Dataset I've used to train the models is [here](https://github.com/iamvatsalpatel/Safe-Password/blob/main/data.csv).
 
-- You can find .ipynb file of the project from [here](https://github.com/iamdhrutipatel/Chater/blob/main/ChatBot_NLP.ipynb).
+- You can find .ipynb file of the project from [here](https://github.com/iamvatsalpatel/Safe-Password/blob/main/NLP_Password_Strength_Prediction.ipynb).
   
 ## Libraries Used
 Libraries used in this project are as follows:
-- nltk
 - pandas
-- matplotlib
-- nlp_utils
+- numpy
+- seaborn
 - sklearn
 
 ## Installation Setup
 #### 1. Clone the repository
-You can clone this repository using command: ``https://github.com/iamdhrutipatel/Chater.git``
+You can clone this repository using command: ``https://github.com/iamvatsalpatel/Safe-Password.git``
 
-#### 2. Open ``ChatBot_NLP.ipynb``
+#### 2. Open ``NLP_Password_Strength_Prediction.ipynb``
 You can open the ``.ipynb`` file using [Google Collab](https://colab.research.google.com/) or Jupyter Notebook.<br>
 Don't have **Jupyter Notebook**? Don't worry, run the following commands and you're good to go 🚀 
 > **$ pip install notebook** <br>
 > **$ jupyter notebook**<br>
 
-#### 3. Execute all the cells consecutively to run the chatbot application.
-
-#### 4. After firing the queries, at the end a bot will provide response according to user's query.
+#### 3. Execute all the cells consecutively to check the stregth of your password.
 
 ## Implementation Screenshot
-You can find the video of running application from [here](https://github.com/iamdhrutipatel/Chater/blob/main/Implementation%20Video.mov).
+
+<img height=50 width=475 alt="ss1" src="https://user-images.githubusercontent.com/61371035/141652871-f55b279e-8a9d-4953-bebf-8859935e63c2.jpeg"/>
+
+<img height=50 width=475 alt="ss2" src="https://user-images.githubusercontent.com/61371035/141652925-95edfb8e-76b7-410b-9feb-5573cddf84ad.jpeg"/>
+
+<img height=50 width=475 alt="ss3" src="https://user-images.githubusercontent.com/61371035/141652975-cb13703b-259b-4387-940e-cfeb02563b83.jpeg"/>
 
 ## Facing any issues???
-Feel free to [open an issue](https://github.com/iamdhrutipatel/Chater/issues/new?assignees=&labels=Query&title=Query). I'll be glad to help you.❤️
+Feel free to [open an issue](https://github.com/iamvatsalpatel/Safe-Password/issues/new?assignees=&labels=Query&title=Query). I'll be glad to help you.😁
